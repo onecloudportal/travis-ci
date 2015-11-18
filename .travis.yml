@@ -9,7 +9,7 @@ notifications:
     - saintclair@onecloudportal.com.br
   slack:
       rooms:
-        - onecloud:wkytMZEkW53F9Gxn2LPmfugQ
+        - onecloud:wkytMZEkW53F9Gxn2LPmfugQ#dev-ci
       on_success: [never]
       on_failure: [always]
       on_start: [always]
