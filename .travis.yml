@@ -6,7 +6,12 @@ script: nosetests
 notifications:
 
   email:
-    - saintclair@onecloudportal.com.br
+    recipients:
+      - saintclair@onecloudportal.com.br
+      - saintclair.com@gmail.com
+    on_success: [change]
+    on_failure: [always]
+
   slack:
       rooms:
         - onecloud:wkytMZEkW53F9Gxn2LPmfugQ#dev-ci
